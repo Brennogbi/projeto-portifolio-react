@@ -14,6 +14,8 @@ import imagem2 from '../assets/download.jpg'
 import imagengrid from '../assets/fototeste.png'
 import { useState } from 'react';
 
+
+
 function App() {
 
   const [open, setOpen] = useState(false);
@@ -43,6 +45,9 @@ function App() {
 
   return (
     <>
+             
+        
+
       <Header>
         {/* Botão hamburguer */}
         <ToggleButton onClick={() => setOpen(!open)}>
@@ -137,6 +142,7 @@ function App() {
             onMouseOut={() => setImagemAtual(imagem1)}
           />
         </DIVIMAGEM>
+        
 
         <SECTION>
           <h1>Breno Santos</h1>
@@ -183,10 +189,10 @@ function App() {
         <ul>
              
 
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
-          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
-          <li><a href="#"><i class="bi bi-tiktok"></i></a></li>
+          <li><a href="https://www.instagram.com/_brenoart_?igsh=MWFsamN6cTJwZ3hpdQ%3D%3D&utm_source=qr" target='blank'><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://wa.me/5577998563542?text=em%20que%20posso%20ajudar%3F" target='blanck'><i class="bi bi-whatsapp"></i></a></li>
+          <li><a href="https://youtube.com/@brenoart-gbi?si=E2EWnfz30xxjx7pk" target='blanck'><i class="bi bi-youtube"></i></a></li>
+          <li><a href="https://www.tiktok.com/@ilustrasantos?_t=ZM-8z9feS4pajQ&_r=1" target='blanck'><i class="bi bi-tiktok"></i></a></li>
 
         </ul>
 

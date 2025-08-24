@@ -29,6 +29,8 @@ export const Header = styled.header`
   z-index: 1000;
   animation: ${slidedow} 1.3s ease-out forwards;
   transition: all 0.5s ease;
+ 
+  box-shadow:   0px 0px  30px #ffffff94;
 
   
 `
@@ -278,8 +280,10 @@ export const DIVDECRICAO =styled.div`
 export const SECTIONGRID = styled.div`
   width: 100%;
   height:60v;
-  background: #3b3a3aff;
+  background: #252525ff;
   padding: 20px;
+  
+  box-shadow: 0px 0px 10px #ffffffd2;
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); 
@@ -308,7 +312,7 @@ export const BLOCOIMGAEM = styled.div`
   height: 300px;
   border: 1px solid white;
   border-radius: 10px;
-  background: #252525ff;
+  background: #161616ff;
   padding: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   will-change: transform, opacity;
@@ -403,6 +407,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 
+  box-shadow: 0px 0px 10px #ffffffb7;
+
+
 
 
 ul{
@@ -413,10 +420,11 @@ ul{
 
 i{
   font-size: 30px;
-  color: white;
+  color: #6e6e6eff;
   
   
    &:hover { 
+    color: #ffffffff;
 
    
   
